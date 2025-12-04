@@ -267,7 +267,7 @@ export default function LoginPage() {
         </div>
 
         <div className="mt-6 text-center">
-          <a href="/" className="text-sm text-gray-500 hover:text-[#CCFF00] transition-colors">
+          <a href="https://www.instagram.com/hk3rb/" target="_blank" rel="noopener noreferrer" className="text-sm text-gray-500 hover:text-[#CCFF00] transition-colors">
             아직 라이선스가 없으신가요? 구매하기 →
           </a>
         </div>
