@@ -340,7 +340,7 @@ export default function LandingPage() {
               ))}
             </ul>
 
-            <Link href="https://your-payment-link.com" target="_blank">
+            <Link href="https://www.instagram.com/reel/DPBq-77kuVS/?utm_source=ig_web_copy_link&igsh=MzRlODBiNWFlZA==" target="_blank" rel="noopener noreferrer">
               <Button className="w-full h-14 text-lg bg-[#CCFF00] text-black hover:bg-[#b8e600] lime-glow">
                 지금 구매하기
                 <ChevronRight className="ml-1 w-5 h-5" />
