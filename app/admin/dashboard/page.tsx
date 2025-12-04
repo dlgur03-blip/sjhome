@@ -36,7 +36,7 @@ export default function AdminDashboardPage() {
       supabase.from("user_progress").select("id", { count: "exact" }),
     ]);
 
-    const activeLicenses = licenses.data?.filter(l => l.is_active).length || 0;
+    const activeLicenses = licenses.data?.filter((l: any) => l.is_active).length || 0;
 
     setStats({
       totalCourses: courses.count || 0,
